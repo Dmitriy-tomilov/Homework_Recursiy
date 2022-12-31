@@ -16,7 +16,7 @@ string PrintNumber(double start, double end)
         return start.ToString();
     }
 
-    return (start  +"  "+  PrintNumber( (start + 0.2), end));
+    return (start  +"  "+  PrintNumber( (start + 0,2), end));
 
 }
 Console.WriteLine(PrintNumber(1, N));
